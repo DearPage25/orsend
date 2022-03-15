@@ -1,5 +1,5 @@
 # orsend
-## Info
+
 This proyect is a simple, client and server that send and receive files.
 
 For start this program, first see it like two proyects, client and server.
