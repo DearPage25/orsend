@@ -14,7 +14,7 @@ For start this program, first see it like two proyects, client and server.
   
    This will create a file calls ```client.exe``` or simply ```client```.
    
-2. Start the ```client``` write in terminal some two commands:
+2. Start the ```client``` write in terminal one a two commands:
    
    2.1 For ```client``` will be a ```receive``` state, write this:
    
