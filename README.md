@@ -27,7 +27,7 @@ For start this program, first see it like two proyects, client and server.
       $ ./client send -file something.txt -channel 1
       ```
       
-      This ```send``` mode include two sub-commands: ```-file``` take any file in the directory ```./client/docs``` with the one condition: **write exactly name file.** And file will send in the ```channel``` value, in this case is ```1```.
+      This ```send``` mode include two sub-commands: ```-file``` take any file in the directory ```./client/docs``` with the only condition: **write exactly name file.** And file will send in the ```channel``` value, in this case is ```1```.
       
  **Important**
  
@@ -48,7 +48,7 @@ For start this program, first see it like two proyects, client and server.
 
 In this case just write in the terminal:
       ```
-         $ server
+         $ cd server
            go build src/*.go
       ```
 Also write in the terminal: 
@@ -56,4 +56,4 @@ Also write in the terminal:
 ```
    $ ./app
 ```
-And that all, the server is running.
+And that's all, the server is running.
