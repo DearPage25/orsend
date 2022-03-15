@@ -8,26 +8,26 @@ For start this program, first see it like two proyects, client and server.
 
 1. Write in the terminal: 
       ```
-         $ client
+         $ cd client
            go build src/*.go
       ```
   
    This will create a file calls ```client.exe``` or simply ```client```.
    
-2. For start the ```client``` write in terminal one of two commands:
+2. For start the ```client``` write in the terminal one of two commands:
    
-   2.1 For ```client``` will be a ```receive``` state, write this:
+   2.1 For ```client``` to be in ```receive``` mode, write this in the terminal :
    
        $ ./client receive channel 1
  
-      This will made the client in ```listening``` mode and you can to change value channel (this value is a string not a number or int value).
+      This put the client in ```listening``` mode and you can change the value channel (this value is a string not a number or int value).
   
-   2.2 For ```client``` will be a ```send``` state, write this:
+   2.2 For ```client``` to be in ```send``` mode, write this in the terminal:
       ```
       $ ./client send -file something.txt -channel 1
       ```
       
-      This state ```send``` mode. ```-file``` take any file in the directory ```./client/docs``` with the one condition: **write exactly name file.** And file will send in the ```channel``` value, in this case is ```1```.
+      This ```send``` mode include two sub-commands: ```-file``` take any file in the directory ```./client/docs``` with the one condition: **write exactly name file.** And file will send in the ```channel``` value, in this case is ```1```.
       
  **Important**
  
