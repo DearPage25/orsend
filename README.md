@@ -10,4 +10,4 @@ For start this program, first see it like two proyects, client and server.
    ```& cd client
       go build src/*.go
    ```
-   this will create a file calls ```client.exe`` or simply ```client```.
+   this will create a file calls ```client.exe``` or simply ```client```.
