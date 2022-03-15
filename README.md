@@ -30,6 +30,7 @@ For start this program, first see it like two proyects, client and server.
       This state ```send``` mode. ```-file``` take any file in the directory ```./client/docs``` with the one condition: **write exactly name file.** And file will send in the ```channel``` value, in this case is ```1```.
       
  **Important**
+ 
    For this program to run correctly, the commands are required.
    
   receive:
